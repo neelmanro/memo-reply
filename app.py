@@ -6,7 +6,8 @@ from sqlalchemy.sql import func
 from flask_sqlalchemy import SQLAlchemy
 import csv
 from werkzeug.security import generate_password_hash, check_password_hash
-import openai
+from openai import OpenAI
+
 import os
 
 # -------------------------
@@ -17,13 +18,15 @@ app = Flask(__name__)
 # -------------------------
 # OpenAI Configuration
 # -------------------------
-openai.api_key = os.getenv("OPENAI_API_KEY")
+
 app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
+client = OpenAI()
 
 # -------------------------
 # SQLAlchemy Configuration
 # -------------------------
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("MYSQL_URI")
+db_url = os.getenv("DATABASE_URL") or os.getenv("MYSQL_URI")
+app.config['SQLALCHEMY_DATABASE_URI'] = db_url
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -124,9 +127,13 @@ def generate_question():
         topic     = request.form.get("topic")
         difficulty= request.form.get("difficulty")
 
+        dialect = db.engine.dialect.name
+
+        rand_func = func.rand() if dialect == "mysql" else func.random()
+
         random_question = (Question.query
                            .filter_by(topic=topic, company=company, difficulty=difficulty)
-                           .order_by(func.rand())
+                           .order_by(rand_func)
                            .first())
 
         ai_prompt = f"""
@@ -183,7 +190,7 @@ def logout():
 # -------------------------
 def ai_call(ai_prompt):
     try:
-        response = openai.chat.completions.create(
+        response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": ai_prompt}],
             max_tokens=500,
@@ -192,6 +199,7 @@ def ai_call(ai_prompt):
         return response.choices[0].message.content.strip()
     except Exception as e:
         return f"Could not generate summary: {e}"
+
 
 # -------------------------
 # Database Setup Utilities
