@@ -1,0 +1,601 @@
+company,difficulty,topic,question
+Uber,Easy,Binary Search,"Find insert position of a target in a sorted array.  Return indices, not values."
+Nvidia,Hard,Binary Search,Find the earliest day to make m bouquets of size k (bs on answer).  Solve in O(n) time.
+Uber,Hard,Stacks/Queues,Count submatrices with all ones using histogram + stack.
+Netflix,Medium,Stacks/Queues,Decode string with nested counts using stack.  Solve in O(n) time.
+Apple,Easy,Sliding Window,Count good substrings of size three with distinct characters.
+Airbnb,Easy,Linked Lists,"Remove nth node from end of list (one pass).  Return indices, not values."
+Stripe,Hard,Strings,Shortest palindrome by adding characters in front.
+Uber,Hard,Hash Map/Set,"Largest rectangle in histogram using stack + map of indices.  Return indices, not values."
+Uber,Medium,Linked Lists,Swap nodes in pairs.
+Meta,Easy,Sliding Window,"Find average of each subarray of size k.  Return indices, not values."
+Uber,Easy,Strings,"Check if s is a subsequence of t.  Return indices, not values."
+Amazon,Medium,Two Pointers,"Partition array around a pivot (quickselect step).  Return indices, not values."
+Microsoft,Easy,Binary Search,Binary search for a target in a sorted array.  Solve in O(n) time.
+Google,Medium,Linked Lists,Remove duplicates from a sorted list II (keep unique).
+Salesforce,Easy,Two Pointers,"Remove duplicates from a sorted array in-place and return new length.  Return indices, not values."
+Uber,Medium,Hash Map/Set,"Find duplicate subtrees in a binary tree (serialize).  Return indices, not values."
+Salesforce,Hard,Stacks/Queues,"Basic calculator III with *,/ and parentheses.  Return indices, not values."
+Google,Easy,Stacks/Queues,Implement a queue using two stacks.  Solve in O(n) time.
+Google,Easy,Binary Search,"Find peak element (any peak) in array.  Return indices, not values."
+Stripe,Medium,Sliding Window,Minimum window substring containing all chars of t.  Solve in O(n) time.
+Salesforce,Hard,Binary Search,Search in a rotated array with duplicates present.  Solve in O(n) time.
+Microsoft,Hard,Stacks/Queues,Trapping rain water using monotonic stack.
+Amazon,Medium,Sliding Window,Length of longest substring without repeating characters.
+Amazon,Medium,Linked Lists,Copy list with random pointer.
+Meta,Hard,Two Pointers,Minimum removals to make mountain array.
+Nvidia,Medium,Stacks/Queues,"Simplify expression with parentheses and signs.  Return indices, not values."
+Microsoft,Hard,Binary Search,Smallest radius to cover houses with heaters (bs on answer).
+Apple,Medium,Sliding Window,"Find all anagrams of pattern in text.  Return indices, not values."
+Meta,Easy,Two Pointers,Merge two sorted arrays using two pointers.
+Nvidia,Hard,Arrays,Maximum sum of non-overlapping subarrays of fixed size with constraints.
+Netflix,Easy,Sliding Window,"Find smallest subarray with sum ≥ target (positives).  Return indices, not values."
+Amazon,Easy,Two Pointers,"Find if there exists a pair with a given sum in a sorted array.  Return indices, not values."
+Netflix,Easy,Sliding Window,Find average of each subarray of size k.
+Amazon,Medium,Two Pointers,Minimum window substring (shrink/expand pointers).
+Google,Easy,Arrays,"Remove all occurrences of a value in-place and return the new length.  Return indices, not values."
+Nvidia,Hard,Sliding Window,Longest substring with equal number of letters and digits.  Solve in O(n) time.
+Airbnb,Medium,Sliding Window,Length of longest substring without repeating characters.  Solve in O(n) time.
+Salesforce,Medium,Linked Lists,"Reverse nodes in k-group.  Return indices, not values."
+Google,Hard,Stacks/Queues,"Sliding window maximum using deque.  Return indices, not values."
+Airbnb,Easy,Arrays,"Given an array of integers, return the indices of two numbers that sum to a target.  Solve in O(n) time."
+Adobe,Hard,Strings,"Smallest substring that contains every distinct character of s.  Return indices, not values."
+Apple,Hard,Stacks/Queues,"Trapping rain water using monotonic stack.  Return indices, not values."
+Netflix,Easy,Strings,"Convert a string to an integer (basic atoi rules).  Return indices, not values."
+Apple,Medium,Stacks/Queues,Remove k digits to form the smallest number.  Solve in O(n) time.
+Nvidia,Medium,Two Pointers,"Sort colors (0,1,2) with three-way partitioning."
+Amazon,Hard,Strings,Regular expression matching with . and *.  Solve in O(n) time.
+Google,Hard,Strings,Text justification to fit words into max width lines.
+Microsoft,Medium,Sliding Window,Find all anagrams of pattern in text.
+Apple,Easy,Sliding Window,"Longest substring of repeating characters after at most k replacements (small k).  Return indices, not values."
+Salesforce,Easy,Sliding Window,Number of subarrays with sum less than k (positives).
+Netflix,Hard,Stacks/Queues,"Minimum remove to make parentheses valid (hard variant).  Return indices, not values."
+Google,Easy,Two Pointers,"Merge two sorted arrays using two pointers.  Return indices, not values."
+Airbnb,Medium,Stacks/Queues,"Online stock span with queries.  Return indices, not values."
+Airbnb,Hard,Two Pointers,Shortest subarray with same degree as the array.  Solve in O(n) time.
+Meta,Medium,Hash Map/Set,Find number of subarrays with at most k distinct integers.
+Meta,Hard,Hash Map/Set,"Design a LFU cache.  Return indices, not values."
+Netflix,Medium,Stacks/Queues,"Largest rectangle in histogram using a stack.  Return indices, not values."
+Microsoft,Hard,Two Pointers,"Longest subarray with absolute diff ≤ limit using deques/two pointers.  Return indices, not values."
+Nvidia,Easy,Strings,Count vowels and consonants in a string.
+Nvidia,Easy,Stacks/Queues,Check if a sequence of pushes and pops is valid.
+Salesforce,Easy,Sliding Window,"Count substrings with at most two distinct characters.  Return indices, not values."
+Meta,Medium,Binary Search,Find first and last occurrence of a target in sorted array.
+Stripe,Medium,Strings,"Zigzag conversion and read row-wise.  Return indices, not values."
+Stripe,Easy,Stacks/Queues,"Binary tree level-order traversal using a queue.  Return indices, not values."
+Google,Hard,Linked Lists,Find the first common ancestor in two intersecting lists with cycle possibility.
+Adobe,Medium,Hash Map/Set,"Longest consecutive sequence length.  Return indices, not values."
+Apple,Easy,Strings,Check if two strings are anagrams.
+Adobe,Easy,Stacks/Queues,Backspace string compare with stack simulation.
+Uber,Medium,Strings,"Basic calculator with +,-,(,) and non-negative integers.  Return indices, not values."
+Stripe,Hard,Linked Lists,"Find the first common ancestor in two intersecting lists with cycle possibility.  Return indices, not values."
+Apple,Hard,Binary Search,Find the earliest day to make m bouquets of size k (bs on answer).
+Google,Medium,Binary Search,"Find first and last occurrence of a target in sorted array.  Return indices, not values."
+Nvidia,Medium,Binary Search,"Binary search on answer: minimize maximum pages allocated.  Return indices, not values."
+Google,Medium,Binary Search,Find kth smallest element in a sorted matrix.
+Nvidia,Medium,Sliding Window,"Length of longest substring without repeating characters.  Return indices, not values."
+Adobe,Easy,Linked Lists,"Detect cycle in a linked list (Floyd).  Return indices, not values."
+Amazon,Hard,Stacks/Queues,Remove duplicate letters for smallest lexicographic order using stack.
+Apple,Hard,Hash Map/Set,Binary tree vertical order traversal with column indexing.
+Meta,Medium,Two Pointers,Find pair in two sorted arrays with sum closest to target.
+Airbnb,Hard,Hash Map/Set,Minimum window substring with multiplicity constraints.
+Nvidia,Medium,Hash Map/Set,Minimum window substring counting character frequencies.
+Apple,Easy,Arrays,"Return the number of even and odd elements in the array.  Return indices, not values."
+Stripe,Medium,Strings,"Basic calculator with +,-,(,) and non-negative integers."
+Uber,Easy,Binary Search,Find the first bad version (boolean API).  Solve in O(n) time.
+Netflix,Medium,Binary Search,Find smallest divisor given a threshold (binary search on answer).
+Google,Easy,Strings,"Determine if a string is a palindrome, ignoring non-alphanumerics.  Solve in O(n) time."
+Uber,Easy,Arrays,Find the element that appears exactly once when all others appear twice.
+Apple,Hard,Two Pointers,Maximize frequency after at most k increments (window + two pointers).
+Meta,Medium,Linked Lists,"Add two numbers in forward order using stacks.  Return indices, not values."
+Apple,Medium,Linked Lists,Reorder list L0→Ln→L1→Ln-1... in-place.  Solve in O(n) time.
+Adobe,Hard,Two Pointers,"Subarrays with at most k odd numbers (nice subarrays).  Return indices, not values."
+Google,Easy,Sliding Window,"Check if any permutation of pattern exists in text (basic).  Return indices, not values."
+Google,Medium,Stacks/Queues,Evaluate reverse polish notation expression.  Solve in O(n) time.
+Adobe,Hard,Arrays,"Find the median of two sorted arrays.  Return indices, not values."
+Nvidia,Medium,Linked Lists,Rotate list to the right by k.
+Netflix,Easy,Linked Lists,"Reverse a singly linked list.  Return indices, not values."
+Adobe,Medium,Hash Map/Set,Find duplicate subtrees in a binary tree (serialize).  Solve in O(n) time.
+Apple,Easy,Binary Search,Compute smallest letter greater than target in a circular array.
+Apple,Easy,Hash Map/Set,Check if array contains nearby duplicate within k distance.  Solve in O(n) time.
+Google,Medium,Linked Lists,"Flatten a multilevel doubly linked list.  Return indices, not values."
+Salesforce,Easy,Binary Search,"Binary search for a target in a sorted array.  Return indices, not values."
+Uber,Easy,Linked Lists,Detect cycle in a linked list (Floyd).
+Nvidia,Medium,Strings,"Restore valid IP addresses from a string of digits.  Return indices, not values."
+Amazon,Medium,Stacks/Queues,Simplify expression with parentheses and signs.
+Netflix,Easy,Stacks/Queues,Implement a queue using two stacks.
+Netflix,Easy,Hash Map/Set,Count frequencies of elements and return the mode.  Solve in O(n) time.
+Apple,Hard,Strings,Longest duplicate substring using hashing/binary search.  Solve in O(n) time.
+Netflix,Medium,Strings,Length of the longest substring without repeating characters.
+Google,Easy,Hash Map/Set,"Find the first recurring character in a string.  Return indices, not values."
+Uber,Medium,Binary Search,"Search in a rotated sorted array without duplicates.  Return indices, not values."
+Netflix,Medium,Sliding Window,"Longest substring with at most k distinct characters.  Return indices, not values."
+Stripe,Hard,Binary Search,"Find kth smallest pair distance in an array.  Return indices, not values."
+Uber,Hard,Hash Map/Set,Count subarrays with exactly k distinct integers.
+Salesforce,Easy,Linked Lists,Merge two sorted linked lists.
+Uber,Hard,Strings,"Shortest palindrome by adding characters in front.  Return indices, not values."
+Meta,Hard,Arrays,Minimum number of jumps to reach the end of the array.  Solve in O(n) time.
+Stripe,Easy,Arrays,Remove all occurrences of a value in-place and return the new length.  Solve in O(n) time.
+Google,Medium,Hash Map/Set,"Find number of subarrays with at most k distinct integers.  Return indices, not values."
+Google,Easy,Sliding Window,Find average of each subarray of size k.  Solve in O(n) time.
+Meta,Easy,Arrays,"Find the maximum difference nums[j]-nums[i] where j>i (single buy-sell).  Return indices, not values."
+Uber,Medium,Stacks/Queues,"Stock span problem using stack.  Return indices, not values."
+Adobe,Medium,Two Pointers,Find the shortest unsorted continuous subarray.
+Adobe,Medium,Arrays,"Given a rotated sorted array, find the minimum element.  Return indices, not values."
+Netflix,Hard,Strings,Smallest substring that contains every distinct character of s.  Solve in O(n) time.
+Nvidia,Medium,Strings,String multiplication of large integers represented as strings.
+Stripe,Medium,Two Pointers,"Container with most water between vertical lines.  Return indices, not values."
+Meta,Easy,Strings,"Determine if a string is a palindrome, ignoring non-alphanumerics.  Return indices, not values."
+Microsoft,Medium,Two Pointers,"Trap rain water (two-pointer approach).  Return indices, not values."
+Stripe,Medium,Hash Map/Set,Find duplicate subtrees in a binary tree (serialize).
+Nvidia,Hard,Strings,Find all shortest transformation sequences (word ladder II).
+Stripe,Medium,Binary Search,"Find kth smallest element in a sorted matrix.  Return indices, not values."
+Salesforce,Easy,Linked Lists,"Delete a node (non-tail) given only that node.  Return indices, not values."
+Nvidia,Hard,Stacks/Queues,"Remove duplicate letters for smallest lexicographic order using stack.  Return indices, not values."
+Nvidia,Easy,Stacks/Queues,Validate parentheses using a stack.  Solve in O(n) time.
+Netflix,Easy,Linked Lists,Detect cycle in a linked list (Floyd).  Solve in O(n) time.
+Meta,Hard,Stacks/Queues,Minimum remove to make parentheses valid (hard variant).  Solve in O(n) time.
+Adobe,Hard,Stacks/Queues,Minimum remove to make parentheses valid (hard variant).
+Salesforce,Medium,Binary Search,Split array largest sum using binary search on answer.
+Stripe,Hard,Linked Lists,Sort a linked list in O(n log n) time and O(1) space (merge sort).
+Stripe,Hard,Two Pointers,"Minimum adjacent swaps to group all ones together in a circular array.  Return indices, not values."
+Nvidia,Easy,Linked Lists,Remove nth node from end of list (one pass).
+Apple,Hard,Arrays,"Given an array, split into m subarrays to minimize the largest sum."
+Stripe,Medium,Linked Lists,"Remove duplicates from a sorted list II (keep unique).  Return indices, not values."
+Microsoft,Easy,Sliding Window,"Number of subarrays with sum less than k (positives).  Return indices, not values."
+Airbnb,Medium,Hash Map/Set,Top k frequent words sorted by frequency then lexicographically.
+Salesforce,Hard,Sliding Window,Find the number of subarrays where max - min ≤ limit using deques.
+Uber,Hard,Binary Search,Divide chocolate to maximize the minimum sweetness.
+Airbnb,Easy,Two Pointers,"Check if two strings are one edit away.  Return indices, not values."
+Uber,Hard,Arrays,"Find the shortest unsorted subarray to sort the whole array.  Return indices, not values."
+Uber,Easy,Hash Map/Set,"Jewels and stones: count how many stones are jewels.  Return indices, not values."
+Salesforce,Hard,Hash Map/Set,"Minimum window substring with multiplicity constraints.  Return indices, not values."
+Amazon,Medium,Hash Map/Set,"Find pairs with given difference k.  Return indices, not values."
+Nvidia,Easy,Hash Map/Set,Intersect two arrays and return unique intersection.
+Nvidia,Hard,Binary Search,Search in a rotated array with duplicates present.
+Airbnb,Medium,Strings,Longest palindromic substring.
+Airbnb,Medium,Arrays,Find the maximum subarray sum (Kadane).  Solve in O(n) time.
+Airbnb,Medium,Hash Map/Set,"Minimum window substring counting character frequencies.  Return indices, not values."
+Google,Hard,Arrays,"Find the maximum product subarray.  Return indices, not values."
+Salesforce,Medium,Stacks/Queues,Remove k digits to form the smallest number.
+Meta,Easy,Hash Map/Set,Find the first recurring character in a string.
+Meta,Medium,Two Pointers,"Find longest mountain in an array.  Return indices, not values."
+Netflix,Medium,Hash Map/Set,Design an LRU cache.
+Adobe,Easy,Strings,"Compress the string with counts of repeated characters (basic run-length).  Return indices, not values."
+Microsoft,Hard,Hash Map/Set,Minimum window substring with multiplicity constraints.  Solve in O(n) time.
+Apple,Hard,Arrays,"Find the shortest subarray with sum at least k (can have negatives).  Return indices, not values."
+Salesforce,Easy,Stacks/Queues,"Simplify a Unix path string using a stack.  Return indices, not values."
+Microsoft,Hard,Stacks/Queues,"Basic calculator III with *,/ and parentheses.  Solve in O(n) time."
+Uber,Medium,Linked Lists,"Partition list around a value x while preserving order.  Return indices, not values."
+Meta,Medium,Sliding Window,Minimum window substring containing all chars of t.
+Adobe,Hard,Stacks/Queues,"Count submatrices with all ones using histogram + stack.  Return indices, not values."
+Uber,Easy,Stacks/Queues,Implement a stack supporting getMin in O(1).
+Amazon,Hard,Linked Lists,Reverse alternating k nodes in a linked list.
+Meta,Medium,Strings,"Length of the longest substring without repeating characters.  Return indices, not values."
+Airbnb,Hard,Two Pointers,"4Sum: find unique quadruplets that sum to target.  Return indices, not values."
+Salesforce,Medium,Hash Map/Set,"Top k frequent words sorted by frequency then lexicographically.  Return indices, not values."
+Microsoft,Hard,Strings,Count distinct palindromic substrings.  Solve in O(n) time.
+Amazon,Hard,Sliding Window,"Longest substring with equal number of letters and digits.  Return indices, not values."
+Salesforce,Hard,Stacks/Queues,Sum of subarray minimums using monotonic stacks.
+Apple,Medium,Two Pointers,Partition array around a pivot (quickselect step).
+Meta,Hard,Linked Lists,"Delete nodes that have a greater value on the right.  Return indices, not values."
+Uber,Medium,Hash Map/Set,Longest consecutive sequence length.
+Salesforce,Easy,Arrays,"Rotate the array to the right by k steps.  Return indices, not values."
+Netflix,Medium,Arrays,Find the length of the longest subarray with sum equal to k.
+Nvidia,Easy,Two Pointers,Check if two strings are one edit away.
+Nvidia,Hard,Strings,"Minimum delete operations to make two strings equal.  Return indices, not values."
+Airbnb,Easy,Sliding Window,Count substrings with at most two distinct characters.
+Netflix,Hard,Binary Search,Find h-index given sorted citations using binary search.
+Nvidia,Hard,Hash Map/Set,"Substring with concatenation of all words.  Return indices, not values."
+Microsoft,Medium,Strings,"Decode encoded strings like '3[a2[c]]'.  Return indices, not values."
+Airbnb,Hard,Linked Lists,LRU cache with doubly linked list + hashmap.
+Apple,Medium,Stacks/Queues,"Daily temperatures: days until a warmer day (monotonic stack).  Return indices, not values."
+Adobe,Hard,Binary Search,Minimize maximum difference between pairs after pairing (bs on answer).
+Adobe,Medium,Stacks/Queues,Largest rectangle in histogram using a stack.
+Amazon,Easy,Sliding Window,"Count good substrings of size three with distinct characters.  Return indices, not values."
+Nvidia,Hard,Stacks/Queues,Shortest subarray with sum at least k using deque (prefix).
+Nvidia,Easy,Arrays,"Given an array of integers, return the indices of two numbers that sum to a target.  Return indices, not values."
+Microsoft,Medium,Linked Lists,Reverse nodes in k-group.  Solve in O(n) time.
+Netflix,Medium,Stacks/Queues,Evaluate reverse polish notation expression.
+Uber,Easy,Sliding Window,Longest ones after flipping at most k zeros (small).
+Nvidia,Easy,Arrays,Compute the running sum (prefix sums) of an array.  Solve in O(n) time.
+Amazon,Easy,Arrays,"Compute the running sum (prefix sums) of an array.  Return indices, not values."
+Adobe,Hard,Linked Lists,Sort a linked list in O(n log n) time and O(1) space (merge sort).  Solve in O(n) time.
+Microsoft,Hard,Strings,Regular expression matching with . and *.
+Adobe,Easy,Linked Lists,Find the middle node of a linked list.  Solve in O(n) time.
+Nvidia,Hard,Linked Lists,Split linked list into k parts as evenly as possible.
+Adobe,Easy,Hash Map/Set,"Count frequencies of elements and return the mode.  Return indices, not values."
+Adobe,Easy,Binary Search,Check if perfect square using binary search.
+Netflix,Hard,Arrays,Longest increasing subsequence length in O(n log n).
+Apple,Easy,Strings,"Return the index of the first unique character in a string.  Return indices, not values."
+Apple,Medium,Hash Map/Set,Find pairs with given difference k.
+Microsoft,Hard,Arrays,Find the shortest subarray with sum at least k (can have negatives).
+Stripe,Easy,Hash Map/Set,Jewels and stones: count how many stones are jewels.
+Microsoft,Easy,Two Pointers,Remove duplicates from a sorted array in-place and return new length.  Solve in O(n) time.
+Airbnb,Hard,Arrays,"Maximum sum of non-overlapping subarrays of fixed size with constraints.  Return indices, not values."
+Apple,Medium,Arrays,"Given intervals, merge all overlapping intervals.  Return indices, not values."
+Meta,Easy,Binary Search,Find peak element (any peak) in array.
+Stripe,Medium,Hash Map/Set,"Group people by group size using a map.  Return indices, not values."
+Microsoft,Medium,Sliding Window,"Shortest subarray with sum ≥ target (positives) optimized.  Return indices, not values."
+Adobe,Hard,Two Pointers,Minimum operations to reduce x to zero by removing ends.
+Salesforce,Easy,Two Pointers,Check if two strings are one edit away.  Solve in O(n) time.
+Apple,Hard,Two Pointers,"Find k closest elements to x in a sorted array.  Return indices, not values."
+Meta,Medium,Arrays,"Given an array and k, return the k most frequent elements."
+Adobe,Hard,Sliding Window,"Minimum number of swaps to group k ones together.  Return indices, not values."
+Netflix,Easy,Strings,"Determine if a string is a palindrome, ignoring non-alphanumerics."
+Airbnb,Hard,Strings,"Find all shortest transformation sequences (word ladder II).  Return indices, not values."
+Microsoft,Hard,Hash Map/Set,Find the number of ways to form target string from a list of words.
+Meta,Easy,Hash Map/Set,Find two numbers that add up to a target using a map.  Solve in O(n) time.
+Meta,Easy,Arrays,Remove all occurrences of a value in-place and return the new length.
+Netflix,Hard,Sliding Window,"Count subarrays with sum equal to k with negatives using hashmap + window.  Return indices, not values."
+Netflix,Easy,Binary Search,Find the single non-duplicate element in a sorted array.
+Apple,Hard,Linked Lists,Clone a complex linked list with random pointers (no extra map).
+Google,Easy,Hash Map/Set,Happy number: determine if a number reaches 1 by square-sum process.
+Microsoft,Easy,Strings,Return the index of the first unique character in a string.
+Google,Medium,Hash Map/Set,Group people by group size using a map.
+Salesforce,Hard,Strings,"Count distinct palindromic substrings.  Return indices, not values."
+Airbnb,Hard,Hash Map/Set,"Submatrix sum equals target using prefix-sum hashing.  Return indices, not values."
+Apple,Easy,Stacks/Queues,Validate parentheses using a stack.
+Stripe,Medium,Stacks/Queues,"Asteroid collision simulation using stack.  Return indices, not values."
+Google,Hard,Arrays,Longest increasing subsequence length in O(n log n).  Solve in O(n) time.
+Meta,Medium,Binary Search,"Find smallest divisor given a threshold (binary search on answer).  Return indices, not values."
+Meta,Hard,Arrays,"Longest increasing subsequence length in O(n log n).  Return indices, not values."
+Nvidia,Medium,Stacks/Queues,Online stock span with queries.
+Microsoft,Easy,Arrays,"Merge two sorted arrays into one sorted array.  Return indices, not values."
+Meta,Hard,Binary Search,Find the single element when others appear thrice (bitwise).
+Apple,Hard,Binary Search,"Smallest radius to cover houses with heaters (bs on answer).  Return indices, not values."
+Adobe,Easy,Binary Search,Find insert position of a target in a sorted array.  Solve in O(n) time.
+Airbnb,Medium,Arrays,Find the first and last position of a target in a sorted array.
+Airbnb,Medium,Two Pointers,"Sort colors (0,1,2) with three-way partitioning.  Return indices, not values."
+Airbnb,Hard,Strings,Count distinct palindromic substrings.
+Apple,Hard,Stacks/Queues,Sum of subarray minimums using monotonic stacks.  Solve in O(n) time.
+Microsoft,Hard,Strings,"Longest duplicate substring using hashing/binary search.  Return indices, not values."
+Adobe,Easy,Arrays,"Find the element that appears exactly once when all others appear twice.  Return indices, not values."
+Netflix,Hard,Linked Lists,Delete nodes that have a greater value on the right.
+Google,Hard,Strings,"Encode and decode a list of strings for network transfer.  Return indices, not values."
+Meta,Easy,Binary Search,"Find the single non-duplicate element in a sorted array.  Return indices, not values."
+Airbnb,Hard,Stacks/Queues,"Shortest subarray with sum at least k using deque (prefix).  Return indices, not values."
+Netflix,Easy,Arrays,Find the maximum difference nums[j]-nums[i] where j>i (single buy-sell).
+Amazon,Medium,Arrays,"Product of array except self without using division.  Return indices, not values."
+Netflix,Medium,Two Pointers,"Find the shortest unsorted continuous subarray.  Return indices, not values."
+Airbnb,Easy,Binary Search,Binary search for a target in a sorted array.
+Airbnb,Easy,Hash Map/Set,Determine if two strings are isomorphic.
+Airbnb,Hard,Sliding Window,Longest repeating character replacement with large k.
+Stripe,Hard,Hash Map/Set,Largest rectangle in histogram using stack + map of indices.
+Meta,Easy,Sliding Window,Check if any permutation of pattern exists in text (basic).
+Meta,Medium,Stacks/Queues,Largest rectangle in histogram using a stack.  Solve in O(n) time.
+Amazon,Hard,Two Pointers,"Maximize frequency after at most k increments (window + two pointers).  Return indices, not values."
+Apple,Medium,Binary Search,"Capitalize to fit within budget: minimize maximum value after operations.  Return indices, not values."
+Amazon,Hard,Strings,Minimum delete operations to make two strings equal.
+Microsoft,Easy,Hash Map/Set,"Check if array contains nearby duplicate within k distance.  Return indices, not values."
+Apple,Medium,Two Pointers,"Remove duplicates such that each element appears at most twice.  Return indices, not values."
+Airbnb,Easy,Binary Search,"Guess number higher or lower using feedback API.  Return indices, not values."
+Netflix,Hard,Two Pointers,Lexicographically smallest subsequence after k removals.
+Uber,Easy,Arrays,Return true if any value appears at least twice in the array.  Solve in O(n) time.
+Stripe,Easy,Linked Lists,"Check if a linked list is a palindrome.  Return indices, not values."
+Amazon,Easy,Stacks/Queues,"Validate parentheses using a stack.  Return indices, not values."
+Google,Medium,Sliding Window,"Minimum window substring containing all chars of t.  Return indices, not values."
+Google,Medium,Strings,Length of the longest substring without repeating characters.  Solve in O(n) time.
+Google,Easy,Linked Lists,"Add two numbers represented by reversed linked lists.  Return indices, not values."
+Adobe,Medium,Stacks/Queues,"Decode string with nested counts using stack.  Return indices, not values."
+Nvidia,Hard,Binary Search,"Minimum time to finish jobs with k workers (bs on answer).  Return indices, not values."
+Microsoft,Medium,Arrays,"Find the minimum number of arrows to burst all balloons (intervals).  Return indices, not values."
+Netflix,Medium,Linked Lists,Swap nodes in pairs.  Solve in O(n) time.
+Google,Hard,Two Pointers,"Minimum removals to make mountain array.  Return indices, not values."
+Meta,Easy,Linked Lists,Add two numbers represented by reversed linked lists.
+Airbnb,Medium,Binary Search,Binary search on answer: minimize maximum pages allocated.  Solve in O(n) time.
+Microsoft,Medium,Two Pointers,Remove duplicates such that each element appears at most twice.
+Netflix,Easy,Two Pointers,"Find the middle of a linked list (slow/fast pointers).  Return indices, not values."
+Adobe,Easy,Sliding Window,"Longest ones after flipping at most k zeros (small).  Return indices, not values."
+Uber,Hard,Sliding Window,Minimum number of swaps to group k ones together.
+Netflix,Easy,Hash Map/Set,"Find two numbers that add up to a target using a map.  Return indices, not values."
+Nvidia,Medium,Sliding Window,Longest subarray with sum ≤ k (positives).  Solve in O(n) time.
+Amazon,Hard,Two Pointers,Shortest subarray with same degree as the array.
+Amazon,Medium,Stacks/Queues,Daily temperatures: days until a warmer day (monotonic stack).  Solve in O(n) time.
+Apple,Medium,Strings,"Group strings into anagrams.  Return indices, not values."
+Salesforce,Easy,Hash Map/Set,Check if array contains nearby duplicate within k distance.
+Salesforce,Medium,Sliding Window,Shortest subarray with sum ≥ target (positives) optimized.
+Salesforce,Easy,Strings,Implement strstr to find the first occurrence of a substring.
+Airbnb,Easy,Two Pointers,Check if a string is a palindrome using two indices.  Solve in O(n) time.
+Apple,Easy,Binary Search,"Find the next greater element in a circular sorted array (wrap).  Return indices, not values."
+Stripe,Hard,Stacks/Queues,"Maximum rectangle in binary matrix (stack + DP).  Return indices, not values."
+Airbnb,Hard,Linked Lists,"Split linked list into k parts as evenly as possible.  Return indices, not values."
+Amazon,Easy,Linked Lists,Intersection of two singly linked lists.
+Uber,Medium,Stacks/Queues,Decode string with nested counts using stack.
+Salesforce,Medium,Hash Map/Set,Minimum window substring counting character frequencies.  Solve in O(n) time.
+Google,Easy,Linked Lists,Check if a linked list is a palindrome.
+Meta,Medium,Hash Map/Set,"Design an LRU cache.  Return indices, not values."
+Adobe,Medium,Linked Lists,"Swap nodes in pairs.  Return indices, not values."
+Amazon,Medium,Binary Search,Binary search on answer: minimize maximum pages allocated.
+Amazon,Hard,Hash Map/Set,Substring with concatenation of all words.
+Nvidia,Hard,Sliding Window,Find subarray with maximum average of size ≥ k.
+Adobe,Easy,Two Pointers,Move all zeros to the end while maintaining order.  Solve in O(n) time.
+Google,Hard,Sliding Window,"Minimum window substring with multiplicity and unicode support.  Return indices, not values."
+Apple,Hard,Sliding Window,Longest substring with equal number of letters and digits.
+Amazon,Easy,Strings,"Check if two strings are anagrams.  Return indices, not values."
+Stripe,Easy,Binary Search,"Find the first bad version (boolean API).  Return indices, not values."
+Nvidia,Medium,Arrays,Product of array except self without using division.  Solve in O(n) time.
+Salesforce,Easy,Arrays,Merge two sorted arrays into one sorted array.
+Stripe,Hard,Sliding Window,Max sum of two non-overlapping subarrays of given lengths.
+Stripe,Hard,Binary Search,Find the single element when others appear thrice (bitwise).  Solve in O(n) time.
+Meta,Medium,Sliding Window,"Binary array: longest ones after flipping at most k zeros.  Return indices, not values."
+Stripe,Medium,Stacks/Queues,Stock span problem using stack.
+Stripe,Easy,Two Pointers,Move all zeros to the end while maintaining order.
+Meta,Medium,Arrays,"Find the length of the longest subarray with sum equal to k.  Return indices, not values."
+Airbnb,Medium,Sliding Window,Count subarrays with exactly k distinct integers (window technique).
+Uber,Easy,Two Pointers,"Move all zeros to the end while maintaining order.  Return indices, not values."
+Google,Hard,Sliding Window,Smallest substring that contains all distinct characters of s.  Solve in O(n) time.
+Airbnb,Easy,Strings,"Count vowels and consonants in a string.  Return indices, not values."
+Netflix,Medium,Binary Search,"Find median of two sorted arrays of different sizes (bs on partition idea simplified).  Return indices, not values."
+Nvidia,Medium,Binary Search,Find minimum in rotated sorted array.
+Amazon,Easy,Two Pointers,Check if a string is a palindrome using two indices.
+Nvidia,Easy,Linked Lists,"Intersection of two singly linked lists.  Return indices, not values."
+Meta,Hard,Sliding Window,Minimum window substring with multiplicity and unicode support.
+Meta,Easy,Strings,Convert a string to an integer (basic atoi rules).  Solve in O(n) time.
+Microsoft,Medium,Binary Search,Capitalize to fit within budget: minimize maximum value after operations.
+Salesforce,Hard,Arrays,Count reverse pairs (i<j and nums[i]>2*nums[j]).
+Microsoft,Hard,Linked Lists,Reverse a sublist between positions left and right in one pass.
+Meta,Hard,Hash Map/Set,Longest substring with at most k distinct characters.
+Salesforce,Medium,Arrays,Find the minimum number of arrows to burst all balloons (intervals).
+Meta,Hard,Arrays,Find the maximum product subarray.
+Adobe,Medium,Sliding Window,Longest substring with at most k distinct characters.
+Stripe,Medium,Sliding Window,Find maximum in each sliding window of size k.
+Salesforce,Hard,Binary Search,Find the smallest subarray length with sum ≥ k with negatives using bs + prefix.
+Stripe,Medium,Linked Lists,Partition list around a value x while preserving order.
+Adobe,Hard,Hash Map/Set,"Count subarrays with exactly k distinct integers.  Return indices, not values."
+Microsoft,Medium,Stacks/Queues,Daily temperatures: days until a warmer day (monotonic stack).
+Amazon,Medium,Hash Map/Set,Evaluate division queries using a graph built from equations.
+Microsoft,Medium,Binary Search,"Split array largest sum using binary search on answer.  Return indices, not values."
+Google,Medium,Stacks/Queues,Asteroid collision simulation using stack.
+Amazon,Medium,Arrays,"Given intervals, merge all overlapping intervals.  Solve in O(n) time."
+Google,Medium,Arrays,Find the length of the longest subarray with sum equal to k.  Solve in O(n) time.
+Amazon,Easy,Strings,Return the index of the first unique character in a string.  Solve in O(n) time.
+Netflix,Hard,Hash Map/Set,Design a LFU cache.
+Adobe,Hard,Sliding Window,Count subarrays with sum equal to k with negatives using hashmap + window.
+Netflix,Medium,Strings,Check if s2 contains a permutation of s1 (substring).  Solve in O(n) time.
+Meta,Easy,Two Pointers,"Remove all instances of a value and return new length.  Return indices, not values."
+Salesforce,Hard,Two Pointers,4Sum: find unique quadruplets that sum to target.  Solve in O(n) time.
+Netflix,Hard,Two Pointers,"Minimum operations to reduce x to zero by removing ends.  Return indices, not values."
+Netflix,Hard,Linked Lists,Merge k sorted linked lists using a heap.  Solve in O(n) time.
+Apple,Easy,Stacks/Queues,Next greater element for each item in array (circular optional).  Solve in O(n) time.
+Amazon,Medium,Strings,Restore valid IP addresses from a string of digits.
+Salesforce,Medium,Stacks/Queues,"Design circular queue with fixed capacity.  Return indices, not values."
+Adobe,Medium,Sliding Window,"Subarray product less than k (positives).  Return indices, not values."
+Google,Hard,Linked Lists,"Find critical points and distances in a linked list.  Return indices, not values."
+Amazon,Medium,Strings,Group strings into anagrams.  Solve in O(n) time.
+Nvidia,Medium,Two Pointers,"Minimum window substring (shrink/expand pointers).  Return indices, not values."
+Amazon,Easy,Stacks/Queues,Remove adjacent duplicates in string using stack.  Solve in O(n) time.
+Amazon,Easy,Hash Map/Set,"Ransom note constructible from magazine letters.  Return indices, not values."
+Netflix,Easy,Arrays,"Check if the array is monotonic (non-increasing or non-decreasing).  Return indices, not values."
+Stripe,Medium,Arrays,"Sort colors (0,1,2) in-place using Dutch National Flag."
+Microsoft,Easy,Stacks/Queues,Remove adjacent duplicates in string using stack.
+Google,Hard,Binary Search,"Find the single element when others appear thrice (bitwise).  Return indices, not values."
+Salesforce,Hard,Linked Lists,Split linked list into k parts as evenly as possible.  Solve in O(n) time.
+Meta,Hard,Sliding Window,"Smallest substring that contains all distinct characters of s.  Return indices, not values."
+Google,Medium,Arrays,"Given an array and k, return the k most frequent elements.  Return indices, not values."
+Apple,Easy,Arrays,Compute the running sum (prefix sums) of an array.
+Adobe,Medium,Linked Lists,Partition list around a value x while preserving order.  Solve in O(n) time.
+Nvidia,Easy,Binary Search,"Square root of a non-negative integer using binary search.  Return indices, not values."
+Airbnb,Medium,Strings,"String multiplication of large integers represented as strings.  Return indices, not values."
+Salesforce,Medium,Linked Lists,Reorder list L0→Ln→L1→Ln-1... in-place.
+Amazon,Easy,Sliding Window,Find the number of vowels in every window of size k.
+Stripe,Easy,Arrays,"Return true if any value appears at least twice in the array.  Return indices, not values."
+Microsoft,Easy,Hash Map/Set,Determine if two strings are isomorphic.  Solve in O(n) time.
+Meta,Medium,Linked Lists,Flatten a multilevel doubly linked list.
+Salesforce,Medium,Strings,"Longest palindromic substring.  Return indices, not values."
+Adobe,Hard,Linked Lists,"Merge k sorted linked lists using a heap.  Return indices, not values."
+Amazon,Hard,Arrays,"Given an array, split into m subarrays to minimize the largest sum.  Return indices, not values."
+Apple,Easy,Two Pointers,Find if there exists a pair with a given sum in a sorted array.
+Google,Medium,Two Pointers,"Find pair in two sorted arrays with sum closest to target.  Return indices, not values."
+Google,Easy,Binary Search,Find the first bad version (boolean API).
+Microsoft,Hard,Stacks/Queues,"Sum of subarray minimums using monotonic stacks.  Return indices, not values."
+Nvidia,Easy,Binary Search,Guess number higher or lower using feedback API.
+Salesforce,Medium,Sliding Window,"Count subarrays with exactly k distinct integers (window technique).  Return indices, not values."
+Uber,Hard,Linked Lists,Merge k sorted linked lists using a heap.
+Adobe,Medium,Binary Search,Search in a rotated sorted array without duplicates.  Solve in O(n) time.
+Microsoft,Hard,Sliding Window,"Find the number of subarrays where max - min ≤ limit using deques.  Return indices, not values."
+Adobe,Medium,Strings,Find the minimum window substring containing all characters of t.
+Microsoft,Hard,Sliding Window,Longest substring where each character appears at least k times.
+Amazon,Easy,Binary Search,"Compute smallest letter greater than target in a circular array.  Return indices, not values."
+Amazon,Medium,Linked Lists,"Odd-even linked list reordering.  Return indices, not values."
+Meta,Hard,Stacks/Queues,Sliding window maximum using deque.
+Google,Medium,Strings,Zigzag conversion and read row-wise.
+Netflix,Medium,Linked Lists,Add two numbers in forward order using stacks.
+Stripe,Easy,Sliding Window,"Maximum sum of a subarray of size k.  Return indices, not values."
+Airbnb,Medium,Linked Lists,Reverse nodes in k-group.
+Apple,Hard,Strings,"Regular expression matching with . and *.  Return indices, not values."
+Google,Easy,Strings,Remove adjacent duplicates repeatedly until none remain.
+Airbnb,Hard,Binary Search,Minimum time to finish jobs with k workers (bs on answer).  Solve in O(n) time.
+Apple,Easy,Two Pointers,"Square a sorted array and return it sorted.  Return indices, not values."
+Amazon,Medium,Sliding Window,"Longest subarray with sum ≤ k (positives).  Return indices, not values."
+Microsoft,Hard,Arrays,"Count reverse pairs (i<j and nums[i]>2*nums[j]).  Return indices, not values."
+Netflix,Hard,Arrays,"Minimum number of jumps to reach the end of the array.  Return indices, not values."
+Uber,Easy,Stacks/Queues,"Baseball game scoring with stack rules.  Return indices, not values."
+Uber,Medium,Two Pointers,Container with most water between vertical lines.  Solve in O(n) time.
+Netflix,Easy,Binary Search,"Check if perfect square using binary search.  Return indices, not values."
+Nvidia,Medium,Arrays,"Find the maximum subarray sum (Kadane).  Return indices, not values."
+Uber,Easy,Two Pointers,Reverse only the vowels of a string.  Solve in O(n) time.
+Meta,Hard,Sliding Window,Count subarrays with sum equal to k with negatives using hashmap + window.  Solve in O(n) time.
+Salesforce,Medium,Arrays,"Find the first and last position of a target in a sorted array.  Return indices, not values."
+Netflix,Medium,Arrays,"Set matrix rows and columns to zero if a cell is zero (in-place).  Return indices, not values."
+Meta,Hard,Two Pointers,"Lexicographically smallest subsequence after k removals.  Return indices, not values."
+Apple,Medium,Strings,Decode encoded strings like '3[a2[c]]'.  Solve in O(n) time.
+Microsoft,Medium,Arrays,"Given intervals, merge all overlapping intervals."
+Meta,Medium,Strings,Find the minimum window substring containing all characters of t.  Solve in O(n) time.
+Amazon,Easy,Hash Map/Set,Find the missing number from 0..n.
+Microsoft,Medium,Stacks/Queues,"Remove k digits to form the smallest number.  Return indices, not values."
+Salesforce,Medium,Linked Lists,Rotate list to the right by k.  Solve in O(n) time.
+Microsoft,Easy,Linked Lists,"Merge two sorted linked lists.  Return indices, not values."
+Airbnb,Easy,Arrays,Rotate the array to the right by k steps.
+Microsoft,Easy,Binary Search,Find the next greater element in a circular sorted array (wrap).
+Airbnb,Easy,Hash Map/Set,"Intersect two arrays and return unique intersection.  Return indices, not values."
+Adobe,Easy,Sliding Window,Find smallest subarray with sum ≥ target (positives).
+Google,Easy,Arrays,Return true if any value appears at least twice in the array.
+Uber,Hard,Linked Lists,"Sort a linked list in O(n log n) time and O(1) space (merge sort).  Return indices, not values."
+Meta,Easy,Stacks/Queues,Backspace string compare with stack simulation.  Solve in O(n) time.
+Amazon,Easy,Binary Search,Square root of a non-negative integer using binary search.
+Stripe,Easy,Strings,Check if s is a subsequence of t.
+Adobe,Easy,Linked Lists,Reverse a singly linked list.
+Nvidia,Medium,Hash Map/Set,"Evaluate division queries using a graph built from equations.  Return indices, not values."
+Airbnb,Medium,Linked Lists,"Rotate list to the right by k.  Return indices, not values."
+Microsoft,Medium,Strings,Group strings into anagrams.
+Nvidia,Easy,Sliding Window,"Find the number of vowels in every window of size k.  Return indices, not values."
+Stripe,Easy,Linked Lists,Find the middle node of a linked list.
+Apple,Medium,Sliding Window,Longest subarray with sum ≤ k (positives).
+Stripe,Hard,Stacks/Queues,Find longest valid parentheses substring.
+Uber,Easy,Hash Map/Set,Count frequencies of elements and return the mode.
+Uber,Easy,Sliding Window,Maximum sum of a subarray of size k.  Solve in O(n) time.
+Amazon,Hard,Stacks/Queues,Trapping rain water using monotonic stack.  Solve in O(n) time.
+Adobe,Hard,Arrays,Minimum number of jumps to reach the end of the array.
+Salesforce,Medium,Two Pointers,Trap rain water (two-pointer approach).
+Salesforce,Easy,Strings,"Reverse the words in a sentence, trimming extra spaces.  Return indices, not values."
+Adobe,Easy,Stacks/Queues,"Implement a stack supporting getMin in O(1).  Return indices, not values."
+Netflix,Medium,Two Pointers,Find longest mountain in an array.
+Meta,Hard,Linked Lists,Find critical points and distances in a linked list.
+Uber,Hard,Sliding Window,"Max sum of two non-overlapping subarrays of given lengths.  Return indices, not values."
+Netflix,Hard,Stacks/Queues,Count submatrices with all ones using histogram + stack.  Solve in O(n) time.
+Apple,Easy,Linked Lists,Merge two sorted linked lists.  Solve in O(n) time.
+Amazon,Easy,Arrays,"Given an array of integers, return the indices of two numbers that sum to a target."
+Netflix,Easy,Two Pointers,Remove all instances of a value and return new length.
+Apple,Medium,Binary Search,Peak index in a mountain array.
+Adobe,Hard,Hash Map/Set,Largest rectangle in histogram using stack + map of indices.  Solve in O(n) time.
+Adobe,Easy,Hash Map/Set,Find two numbers that add up to a target using a map.
+Stripe,Easy,Binary Search,Find insert position of a target in a sorted array.
+Adobe,Easy,Hash Map/Set,Jewels and stones: count how many stones are jewels.  Solve in O(n) time.
+Netflix,Medium,Sliding Window,Binary array: longest ones after flipping at most k zeros.
+Airbnb,Easy,Stacks/Queues,"Check if a sequence of pushes and pops is valid.  Return indices, not values."
+Netflix,Hard,Strings,"Wildcard matching with ? and *.  Return indices, not values."
+Google,Easy,Stacks/Queues,Binary tree level-order traversal using a queue.
+Microsoft,Hard,Linked Lists,LRU cache with doubly linked list + hashmap.  Solve in O(n) time.
+Airbnb,Easy,Linked Lists,Delete a node (non-tail) given only that node.
+Amazon,Medium,Sliding Window,Find all anagrams of pattern in text.  Solve in O(n) time.
+Stripe,Hard,Arrays,Find the shortest unsorted subarray to sort the whole array.
+Airbnb,Hard,Sliding Window,"Find subarray with maximum average of size ≥ k.  Return indices, not values."
+Microsoft,Medium,Linked Lists,"Reorder list L0→Ln→L1→Ln-1... in-place.  Return indices, not values."
+Microsoft,Easy,Arrays,Return the number of even and odd elements in the array.
+Nvidia,Medium,Linked Lists,"Copy list with random pointer.  Return indices, not values."
+Salesforce,Hard,Two Pointers,Longest subarray with absolute diff ≤ limit using deques/two pointers.
+Uber,Hard,Strings,Smallest substring that contains every distinct character of s.
+Airbnb,Medium,Binary Search,"Find minimum in rotated sorted array.  Return indices, not values."
+Nvidia,Easy,Two Pointers,"Check if a string is a palindrome using two indices.  Return indices, not values."
+Apple,Medium,Linked Lists,Odd-even linked list reordering.
+Apple,Medium,Hash Map/Set,Subarray sum equals k using prefix sums and a hash map.  Solve in O(n) time.
+Microsoft,Medium,Hash Map/Set,Top k frequent words sorted by frequency then lexicographically.  Solve in O(n) time.
+Uber,Hard,Linked Lists,Find the first common ancestor in two intersecting lists with cycle possibility.  Solve in O(n) time.
+Microsoft,Easy,Sliding Window,Longest substring of repeating characters after at most k replacements (small k).
+Apple,Hard,Linked Lists,"Reverse a sublist between positions left and right in one pass.  Return indices, not values."
+Uber,Medium,Binary Search,Find kth smallest element in a sorted matrix.  Solve in O(n) time.
+Nvidia,Hard,Linked Lists,"Reverse alternating k nodes in a linked list.  Return indices, not values."
+Salesforce,Easy,Binary Search,Guess number higher or lower using feedback API.  Solve in O(n) time.
+Airbnb,Easy,Sliding Window,Find the number of vowels in every window of size k.  Solve in O(n) time.
+Adobe,Easy,Strings,Convert a string to an integer (basic atoi rules).
+Uber,Hard,Arrays,Find the median of two sorted arrays.
+Uber,Hard,Stacks/Queues,"Find longest valid parentheses substring.  Return indices, not values."
+Google,Easy,Arrays,Find the maximum difference nums[j]-nums[i] where j>i (single buy-sell).  Solve in O(n) time.
+Meta,Easy,Stacks/Queues,"Implement a queue using two stacks.  Return indices, not values."
+Stripe,Medium,Binary Search,Search in a rotated sorted array without duplicates.
+Google,Medium,Two Pointers,Container with most water between vertical lines.
+Uber,Medium,Two Pointers,"3Sum: find all unique triplets that sum to zero.  Return indices, not values."
+Stripe,Hard,Arrays,Find the maximum product subarray.  Solve in O(n) time.
+Netflix,Medium,Strings,"Find the minimum window substring containing all characters of t.  Return indices, not values."
+Microsoft,Medium,Hash Map/Set,"Subarray sum equals k using prefix sums and a hash map.  Return indices, not values."
+Google,Hard,Hash Map/Set,Palindrome pairs: find all pairs of indices forming palindromes.
+Stripe,Hard,Two Pointers,Minimum removals to make mountain array.  Solve in O(n) time.
+Amazon,Hard,Binary Search,Minimum time to finish jobs with k workers (bs on answer).
+Apple,Hard,Hash Map/Set,"Find the number of ways to form target string from a list of words.  Return indices, not values."
+Nvidia,Hard,Two Pointers,Maximize frequency after at most k increments (window + two pointers).  Solve in O(n) time.
+Stripe,Easy,Stacks/Queues,Baseball game scoring with stack rules.
+Meta,Hard,Strings,Encode and decode a list of strings for network transfer.
+Nvidia,Hard,Two Pointers,4Sum: find unique quadruplets that sum to target.
+Nvidia,Hard,Two Pointers,"Shortest subarray with same degree as the array.  Return indices, not values."
+Airbnb,Easy,Stacks/Queues,Simplify a Unix path string using a stack.
+Adobe,Hard,Strings,Wildcard matching with ? and *.
+Adobe,Hard,Binary Search,"Divide chocolate to maximize the minimum sweetness.  Return indices, not values."
+Salesforce,Medium,Two Pointers,"Sort colors (0,1,2) with three-way partitioning.  Solve in O(n) time."
+Meta,Hard,Strings,Wildcard matching with ? and *.  Solve in O(n) time.
+Amazon,Easy,Linked Lists,"Convert binary number in a linked list to integer.  Return indices, not values."
+Airbnb,Medium,Stacks/Queues,Design circular queue with fixed capacity.
+Salesforce,Hard,Linked Lists,"LRU cache with doubly linked list + hashmap.  Return indices, not values."
+Amazon,Hard,Hash Map/Set,"Binary tree vertical order traversal with column indexing.  Return indices, not values."
+Stripe,Easy,Sliding Window,Check if any permutation of pattern exists in text (basic).  Solve in O(n) time.
+Google,Hard,Hash Map/Set,"Longest substring with at most k distinct characters.  Return indices, not values."
+Salesforce,Hard,Arrays,"Minimum operations to make array strictly increasing by increments.  Return indices, not values."
+Stripe,Medium,Two Pointers,Find pair in two sorted arrays with sum closest to target.  Solve in O(n) time.
+Meta,Medium,Stacks/Queues,"Evaluate reverse polish notation expression.  Return indices, not values."
+Nvidia,Easy,Sliding Window,Count good substrings of size three with distinct characters.  Solve in O(n) time.
+Amazon,Hard,Binary Search,"Find the earliest day to make m bouquets of size k (bs on answer).  Return indices, not values."
+Adobe,Easy,Two Pointers,Find the middle of a linked list (slow/fast pointers).
+Airbnb,Hard,Arrays,Minimum operations to make array strictly increasing by increments.
+Uber,Medium,Sliding Window,Subarray product less than k (positives).
+Uber,Hard,Hash Map/Set,Palindrome pairs: find all pairs of indices forming palindromes.  Solve in O(n) time.
+Google,Hard,Two Pointers,Minimum adjacent swaps to group all ones together in a circular array.
+Netflix,Easy,Stacks/Queues,"Backspace string compare with stack simulation.  Return indices, not values."
+Microsoft,Easy,Linked Lists,Delete a node (non-tail) given only that node.  Solve in O(n) time.
+Nvidia,Easy,Hash Map/Set,"Find the missing number from 0..n.  Return indices, not values."
+Uber,Hard,Binary Search,Find kth smallest pair distance in an array.  Solve in O(n) time.
+Salesforce,Medium,Hash Map/Set,Subarray sum equals k using prefix sums and a hash map.
+Amazon,Hard,Arrays,Find the shortest subarray with sum at least k (can have negatives).  Solve in O(n) time.
+Airbnb,Medium,Two Pointers,Minimum window substring (shrink/expand pointers).  Solve in O(n) time.
+Stripe,Hard,Hash Map/Set,"Palindrome pairs: find all pairs of indices forming palindromes.  Return indices, not values."
+Apple,Hard,Sliding Window,"Longest substring where each character appears at least k times.  Return indices, not values."
+Salesforce,Easy,Stacks/Queues,Next greater element for each item in array (circular optional).
+Stripe,Easy,Hash Map/Set,"Happy number: determine if a number reaches 1 by square-sum process.  Return indices, not values."
+Amazon,Hard,Sliding Window,Longest substring where each character appears at least k times.  Solve in O(n) time.
+Uber,Easy,Linked Lists,"Find the middle node of a linked list.  Return indices, not values."
+Salesforce,Medium,Binary Search,Find minimum in rotated sorted array.  Solve in O(n) time.
+Amazon,Medium,Binary Search,"Peak index in a mountain array.  Return indices, not values."
+Salesforce,Medium,Strings,Decode encoded strings like '3[a2[c]]'.
+Airbnb,Hard,Binary Search,"Search in a rotated array with duplicates present.  Return indices, not values."
+Airbnb,Easy,Strings,"Reverse the words in a sentence, trimming extra spaces."
+Uber,Hard,Two Pointers,Minimum adjacent swaps to group all ones together in a circular array.  Solve in O(n) time.
+Microsoft,Easy,Two Pointers,Square a sorted array and return it sorted.
+Stripe,Medium,Arrays,"Given an array and k, return the k most frequent elements.  Solve in O(n) time."
+Nvidia,Hard,Arrays,"Given an array, split into m subarrays to minimize the largest sum.  Solve in O(n) time."
+Netflix,Medium,Hash Map/Set,Longest consecutive sequence length.  Solve in O(n) time.
+Stripe,Hard,Sliding Window,Minimum window substring with multiplicity and unicode support.  Solve in O(n) time.
+Google,Easy,Sliding Window,Maximum sum of a subarray of size k.
+Uber,Easy,Strings,Compress the string with counts of repeated characters (basic run-length).
+Apple,Easy,Stacks/Queues,"Remove adjacent duplicates in string using stack.  Return indices, not values."
+Salesforce,Hard,Strings,Longest duplicate substring using hashing/binary search.
+Airbnb,Easy,Binary Search,Square root of a non-negative integer using binary search.  Solve in O(n) time.
+Meta,Easy,Linked Lists,Reverse a singly linked list.  Solve in O(n) time.
+Uber,Medium,Arrays,"Sort colors (0,1,2) in-place using Dutch National Flag.  Return indices, not values."
+Adobe,Medium,Two Pointers,3Sum: find all unique triplets that sum to zero.  Solve in O(n) time.
+Netflix,Hard,Sliding Window,Smallest substring that contains all distinct characters of s.
+Salesforce,Hard,Sliding Window,"Longest repeating character replacement with large k.  Return indices, not values."
+Apple,Easy,Strings,Implement strstr to find the first occurrence of a substring.  Solve in O(n) time.
+Microsoft,Easy,Stacks/Queues,"Next greater element for each item in array (circular optional).  Return indices, not values."
+Stripe,Easy,Strings,"Remove adjacent duplicates repeatedly until none remain.  Return indices, not values."
+Microsoft,Hard,Binary Search,"Find the smallest subarray length with sum ≥ k with negatives using bs + prefix.  Return indices, not values."
+Uber,Medium,Sliding Window,"Find maximum in each sliding window of size k.  Return indices, not values."
+Netflix,Hard,Hash Map/Set,Count subarrays with exactly k distinct integers.  Solve in O(n) time.
+Apple,Easy,Hash Map/Set,Ransom note constructible from magazine letters.
+Google,Hard,Binary Search,Find kth smallest pair distance in an array.
+Google,Medium,Sliding Window,Binary array: longest ones after flipping at most k zeros.  Solve in O(n) time.
+Meta,Hard,Binary Search,"Find h-index given sorted citations using binary search.  Return indices, not values."
+Salesforce,Easy,Hash Map/Set,"Determine if two strings are isomorphic.  Return indices, not values."
+Adobe,Easy,Arrays,Check if the array is monotonic (non-increasing or non-decreasing).
+Uber,Hard,Two Pointers,Subarrays with at most k odd numbers (nice subarrays).
+Apple,Easy,Linked Lists,Convert binary number in a linked list to integer.
+Airbnb,Easy,Two Pointers,Remove duplicates from a sorted array in-place and return new length.
+Airbnb,Hard,Stacks/Queues,"Basic calculator III with *,/ and parentheses."
+Netflix,Hard,Binary Search,"Minimize maximum difference between pairs after pairing (bs on answer).  Return indices, not values."
+Nvidia,Hard,Hash Map/Set,Submatrix sum equals target using prefix-sum hashing.
+Stripe,Medium,Binary Search,Find first and last occurrence of a target in sorted array.  Solve in O(n) time.
+Apple,Medium,Arrays,Product of array except self without using division.
+Amazon,Hard,Linked Lists,"Clone a complex linked list with random pointers (no extra map).  Return indices, not values."
+Stripe,Easy,Two Pointers,"Reverse only the vowels of a string.  Return indices, not values."
+Salesforce,Hard,Hash Map/Set,Submatrix sum equals target using prefix-sum hashing.  Solve in O(n) time.
+Nvidia,Easy,Strings,Check if two strings are anagrams.  Solve in O(n) time.
+Adobe,Medium,Arrays,Set matrix rows and columns to zero if a cell is zero (in-place).
+Uber,Medium,Arrays,"Given a rotated sorted array, find the minimum element."
+Google,Hard,Stacks/Queues,Maximum rectangle in binary matrix (stack + DP).
+Microsoft,Easy,Strings,"Implement strstr to find the first occurrence of a substring.  Return indices, not values."
+Adobe,Medium,Binary Search,Find median of two sorted arrays of different sizes (bs on partition idea simplified).
+Uber,Medium,Strings,Check if s2 contains a permutation of s1 (substring).
+Stripe,Hard,Strings,"Text justification to fit words into max width lines.  Return indices, not values."
+Google,Easy,Two Pointers,Reverse only the vowels of a string.
+Stripe,Medium,Two Pointers,3Sum: find all unique triplets that sum to zero.
+Microsoft,Hard,Two Pointers,Find k closest elements to x in a sorted array.
+Amazon,Medium,Arrays,Find the maximum subarray sum (Kadane).
+Adobe,Medium,Strings,"Check if s2 contains a permutation of s1 (substring).  Return indices, not values."

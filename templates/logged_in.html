@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interview Prep — Setup + Code Pad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0F172A; --panel:#111827; --panel-2:#0b1224; --text:#F8FAFC;
+      --muted:#94A3B8; --stroke:#263043; --accent:#6366F1; --accent-2:#3B82F6;
+      --radius:12px;
+    }
+    *{ box-sizing:border-box; margin:0 }
+    html,body{ height:100% }
+    body{
+      font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg); color: var(--text); height:100vh; display:flex;
+    }
+
+
+    .left,.right{ flex:1; min-width:0; display:flex; flex-direction:column }
+    .left{ border-right:1px solid var(--stroke) }
+
+
+    .panel{ background:var(--panel); height:100%; display:flex; flex-direction:column }
+    .panel-header{ padding:18px; border-bottom:1px solid var(--stroke); font-weight:800; letter-spacing:.2px }
+    .panel-body{ padding:18px; overflow:auto; display:flex; flex-direction:column; gap:16px }
+
+ 
+    .bubble{ background:var(--panel-2); border:1px solid var(--stroke); border-radius:16px; padding:14px 16px; line-height:1.55; color:#e5e7eb; box-shadow: 0 10px 24px rgba(0,0,0,.25); }
+    .bubble b{ color:#ffffff }
+    .list{ margin-top:10px; color:#d1d5db; padding-left:18px }
+    .list li{ margin:6px 0 }
+
+
+    form.filters{ display:grid; gap:14px; grid-template-columns: 1fr 1fr }
+    form.filters .full{ grid-column: 1 / -1 }
+    label{ display:block; font-size:12px; color:var(--muted); margin-bottom:6px }
+    select, input[type="text"], textarea{ width:100%; padding:12px; border-radius:var(--radius); background:var(--panel-2); color:var(--text); border:1px solid var(--stroke); outline:none; }
+    select:focus, input[type="text"]:focus, textarea:focus{ border-color:var(--accent) }
+    textarea{ min-height:100px; resize:vertical }
+    .actions{ grid-column:1 / -1; display:flex; justify-content:flex-end; gap:10px }
+    .btn{ padding:10px 16px; border:none; border-radius:var(--radius); background: linear-gradient(90deg, var(--accent), var(--accent-2)); color:#fff; font-weight:700; cursor:pointer; }
+    .ghost{ background: transparent; border:1px solid var(--stroke); color:#cbd5e1; }
+
+    /* Right: Code editor */
+    .code-shell{ height:100%; background:var(--panel); display:flex; flex-direction:column }
+    .code-header{ padding:18px; border-bottom:1px solid var(--stroke); font-weight:800 }
+    #editor{ flex:1; min-height:0 }
+    .code-submit{ padding:12px; border-top:1px solid var(--stroke); display:flex; justify-content:flex-end; gap:10px }
+  </style>
+</head>
+<body>
+
+  <div class="left">
+    <div class="panel">
+      <div class="panel-header">Setup</div>
+      <div class="panel-body">
+        <div class="bubble">
+          <b>How this works</b>
+          <ul class="list">
+            <li>Select a <b>company</b> and the <b>topic</b> you want to practice.</li>
+            <li>Choose the <b>difficulty</b> (Easy / Medium / Hard).</li>
+            <li>Choose the <b>topic</b> you would like to work on.</li>
+            <li>Click <b>Generate Question</b>. We’ll fetch a relevant DSA-style question.</li>
+            <li>The question appears; write your solution in the editor on the right and press <b>Submit Code</b>.</li>
+            <li>If correct, you move to the next question; otherwise you’ll get guidance and resources.</li>
+          </ul>
+        </div>
+        <form class="filters" action="/generate_question" method="POST">
+
+          <div class="full">
+            <label for="company">Company</label>
+            <select id="company" name="company" required>
+              <option value="" disabled selected>Select company</option>
+              <option>Google</option>
+              <option>Amazon</option>
+              <option>Meta</option>
+              <option>Apple</option>
+              <option>Netflix</option>
+              <option>Microsoft</option>
+              <option>Adobe</option>
+              <option>Salesforce</option>
+              <option>Uber</option>
+              <option>Airbnb</option>
+              <option>Stripe</option>
+              <option>Nvidia</option>
+            </select>
+          </div>
+  
+          <div>
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic" required>
+              <option value="" disabled selected>Select topic</option>
+              <option>Arrays</option>
+              <option>Strings</option>
+              <option>Hash Map/Set</option>
+              <option>Two Pointers</option>
+              <option>Sliding Window</option>
+              <option>Stacks/Queues</option>
+              <option>Linked Lists</option>
+              <option>Binary Search</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="difficulty">Difficulty</label>
+            <select id="difficulty" name="difficulty" required>
+              <option value="" disabled selected>Select difficulty</option>
+              <option>Easy</option>
+              <option>Medium</option>
+              <option>Hard</option>
+            </select>
+          </div>
+          <div class="actions">
+            <button class="ghost" type="reset">Clear</button>
+            <button class="btn" type="submit">Generate Question</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <form action="/logout" method="get" style="position:absolute; right:1rem; top:1rem;">
+  <button type="submit" class="btn btn-secondary">Log out</button>
+</form>
+
+
+  
+  <div class="right">
+    <div class="code-shell">
+      <div class="code-header">Code Editor</div>
+      {% if question_text %}
+      <div class="bubble" style="margin:16px; max-height:400px; overflow-y:auto; white-space:pre-wrap;">
+        <b>Generated Question(💡 You can use any programming language to solve this question.):</b>
+        <p>{{ question_text }}</p>
+      </div>
+      {% endif %}
+
+
+      <div id="editor"></div>
+
+   
+      <form class="code-submit" action="/generate_solution" method="POST" id="codeForm">
+        <!-- Hidden fields sent to backend -->
+        <textarea name="code" id="codeHidden" hidden></textarea>
+        <textarea name="question_hello" id="questionHidden" hidden>{% if question_text %}{{ question_text }}{% endif %}</textarea>
+        <button class="btn" type="submit">Submit Code</button>
+      </form>
+    </div>
+  </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs/loader.min.js"></script>
+  <script>
+    let editor;
+    require.config({ paths: { 'vs': 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs' }});
+    require(['vs/editor/editor.main'], function () {
+      editor = monaco.editor.create(document.getElementById('editor'), {
+        language: 'python',
+        theme: 'vs-dark',
+        automaticLayout: true,
+        fontSize: 14,
+        minimap: { enabled: false },
+        scrollBeyondLastLine: false
+      });
+    });
+
+    
+    document.getElementById('codeForm').addEventListener('submit', function () {
+      if (editor) {
+        document.getElementById('codeHidden').value = editor.getValue();
+      }
+    });
+  </script>
+
+  {% if solution %}
+  <div class="bubble" style="margin: 16px; white-space: pre-wrap;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <h3 style="color:#22c55e; margin-bottom:8px;">✅ Solution Result</h3>
+      <a href="/logged_in" style="padding:6px 10px; background:linear-gradient(90deg,#6366F1,#3B82F6); color:#fff; border-radius:6px; text-decoration:none; font-weight:600; font-size:14px;"> 🔄 Try Another </a>
+    </div>
+    <div class="solution-text" style="line-height:1.6;">
+      {{ solution | safe }}
+    </div>
+  </div>
+  {% endif %}
+</body>
+</html>

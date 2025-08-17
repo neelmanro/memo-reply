@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login – Clarity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:#0F172A;
+      --card:#111827aa;
+      --card-solid:#1F2937;
+      --text:#F8FAFC;
+      --muted:#94A3B8;
+      --stroke:#374151;
+      --brand:#6366F1;
+      --brand-2:#3B82F6;
+      --shadow: 0 20px 50px rgba(0,0,0,.45);
+      --radius:18px;
+    }
+    * { box-sizing:border-box; margin:0 }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(1200px 800px at 20% 10%, #1e2a52 0%, transparent 60%),
+                  radial-gradient(1000px 700px at 90% 20%, #1e285a 0%, transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      min-height:100vh;
+      display:flex; justify-content:center; align-items:center;
+      padding:32px;
+    }
+    .card {
+      width:min(92vw, 420px);
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)), var(--card-solid);
+      backdrop-filter: blur(8px);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:36px 34px;
+      text-align:center;
+    }
+    .title {
+      font-size:32px;
+      font-weight:800;
+      margin-bottom:24px;
+    }
+    form { width:100%; }
+    label {
+      display:block;
+      text-align:left;
+      font-size:13px;
+      margin:12px 0 6px 4px;
+      color:#cbd5e1;
+    }
+    input {
+      width:100%;
+      padding:14px 14px;
+      font-size:15px;
+      color:var(--text);
+      background:#0b1224;
+      border:1px solid var(--stroke);
+      border-radius:12px;
+      outline:none;
+      transition:border-color .15s, box-shadow .15s, background .15s;
+      margin-bottom:12px;
+    }
+    input::placeholder { color:#6b7280; }
+    input:focus {
+      border-color:#7c83ff;
+      box-shadow:0 0 0 3px rgba(99,102,241,.25);
+      background:#0a1221;
+    }
+    .primary {
+      width:100%;
+      margin-top:4px;
+      padding:14px 16px;
+      font-size:16px;
+      font-weight:700;
+      color:white;
+      background: linear-gradient(90deg, var(--brand), var(--brand-2));
+      border:none;
+      border-radius:12px;
+      cursor:pointer;
+      transition: transform .08s ease, filter .15s ease;
+    }
+    .primary:hover { filter:brightness(1.08); }
+    .primary:active { transform: translateY(1px); }
+    .alt {
+      text-align:center;
+      margin-top:14px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .alt a {
+      color:#a5b4fc;
+      text-decoration:none;
+      font-weight:600;
+    }
+    .alt a:hover { text-decoration:underline; }
+    .error {
+      color: #f87171;
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: -4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="title">Login</div>
+    {% if error %}
+      <div class="error">{{ error }}</div>
+    {% endif %}
+    <form action="/login" method="POST">
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" placeholder="Enter your Email" required>
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Enter your Password" required>
+
+      <button class="primary" type="submit">Login</button>
+    </form>
+
+    <div class="alt">
+      Don’t have an account? <a href="/signup">Sign up</a>
+    </div>
+  </div>
+</body>
+</html>
