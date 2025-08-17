@@ -20,7 +20,7 @@ app = Flask(__name__)
 # -------------------------
 
 app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
-client = OpenAI()
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 # -------------------------
 # SQLAlchemy Configuration
@@ -143,7 +143,7 @@ def generate_question():
             i just gave them as examples do not include these in the question please 
             
             [Problem] two sentences describing the task propely leetcode style, like it should be clear [Function]
-            Write "param:" followed by the function name and parameter(s). 
+            Write "param:" followed by the function name do not say void or def as we dont know what lannguage(ex. fucntion name-: get_nums,params= nums) 
             [Examples] Write exactly two examples in this style: 
             Input: <example input> Output: <example output> 
             
